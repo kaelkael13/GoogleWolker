@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1340px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: #E7E7F9;
+}
+
+.topHead {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: url("../img/index/cubes.svg");
+  background-repeat: no-repeat;
+  background-size: 300px;
+  height: 287px;
+}
+
+.topHeadWrapper {
+  width: 1000px;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  display: flex;
+  padding-top: 95px;
+}
+
+.topHeadWrapper a {
+  font-family: 'Kantumruy';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 43px;
+  color: #6F3E95;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  text-decoration: none;
+}
+
+.topHeadWrapper p {
+  font-family: 'Kantumruy';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 87px;
+}
+
+.topHeadWrapper span {
+  color: #7811DF;
+}
+
+.topHead img {
+  width: 300px;
+}
+/*# sourceMappingURL=style.css.map */

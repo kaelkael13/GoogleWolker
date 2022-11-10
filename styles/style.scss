@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1340px;
+    margin: 0 auto;
+}
+
+$mainColor: #4A2963;
+$mainFont: Montserrat;
+
+body {
+    background-color: #E7E7F9;
+}
+
+.topHead {
+    display: flex;
+    justify-content: center;
+    background-image: url("../img/index/cubes.svg");
+    background-repeat: no-repeat;
+    background-size: 300px;
+    height: 287px;
+
+    &Wrapper {
+        width: 1000px;
+        height: 60px;
+        display: flex;
+        justify-content: space-around;
+        display: flex;
+        padding-top: 95px;
+    }
+
+    &Wrapper a {
+        // для ссылок контакты и блог
+        font-family: 'Kantumruy';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 43px;
+        color: #6F3E95;
+        display: flex;
+        align-items: flex-end;
+        text-decoration: none;
+    }
+
+    &Wrapper p {
+        // для основного названия
+        font-family: 'Kantumruy';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 87px;
+    }
+
+    &Wrapper span {
+        // для отдельных букв основного названия
+        color: #7811DF;
+    }
+}
+
+.topHead img {
+    width: 300px;
+}
